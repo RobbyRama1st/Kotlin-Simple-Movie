@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--header-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/bt_close"
+                android:layout_width="?attr/actionBarSize"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:srcCompat="@drawable/ic_close"
+                android:contentDescription="Close Dialog"
+                app:tint="@color/purple_700" />
+
+        </LinearLayout>
+
+        <!--body-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_view"
+                android:layout_width="305dp"
+                android:layout_height="305dp"
+                app:autoPlay="false" />
+
+            <TextView
+                android:id="@+id/tv_movie_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="The Avenger"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/grey_40"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RatingBar
+                    android:id="@+id/rb_movie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style = "?android:attr/ratingBarStyleSmall"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:rating="2"
+                    android:stepSize=".5"/>
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:id="@+id/tv_vote_average"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9.8"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="?attr/colorPrimary" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_movie_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Get started with Android (Kotlin, Jet Compose) &amp; IOS (Swift UI), MVVM clean architecture, and Beautiful UI UX design patterns."
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/grey_40" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
