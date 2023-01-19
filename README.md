@@ -1,6 +1,15 @@
-# news-apps
+<h1 align="center">Simple Movie App</h1>
 
-Aplikasi android native movie sederhana yang dibuat menggunakan [Kotlin]([https://flutter.dev/](https://kotlinlang.org/)  dan menggunakan API dari [OpenWeatherMap]
+<p align="center">
+<img src="https://user-images.githubusercontent.com/82755985/213356557-b5c30c93-c805-4e89-9b8d-6abba952cf16.jpg" width="30%"></img>  
+<img src="https://user-images.githubusercontent.com/82755985/213356688-b26ef1af-7dec-452e-beb9-c63fcc15b984.jpg" width="30%"></img>  
+<img src="https://user-images.githubusercontent.com/82755985/213356801-4952c6c2-84ca-420c-b496-2fecb5ad9559.jpg" width="30%"></img>
+</p>
+
+
+# Simple Movie App
+
+Aplikasi android native movie sederhana yang dibuat menggunakan [Kotlin]([https://flutter.dev/](https://kotlinlang.org/) dan menggunakan API dari [TheMovieDB](https://www.themoviedb.org/)
 
 # Tech stack & third party libraries
 - SDK minimal level 24
