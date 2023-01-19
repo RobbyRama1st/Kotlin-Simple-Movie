@@ -9,7 +9,7 @@
 
 # Simple Movie App
 
-Aplikasi android native movie sederhana yang dibuat menggunakan [Kotlin]([https://flutter.dev/](https://kotlinlang.org/) dan menggunakan API dari [TheMovieDB](https://www.themoviedb.org/)
+Aplikasi android native movie sederhana yang dibuat menggunakan [Kotlin](https://kotlinlang.org/) dan menggunakan API dari [TheMovieDB](https://www.themoviedb.org/)
 
 # Tech stack & third party libraries
 - SDK minimal level 24
